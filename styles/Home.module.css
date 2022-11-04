@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'bsg';
+  src: url('../components/fonts/battlestar-font/Battlestar-0a84.TTF');
+}
+
 .container {
   padding: 0 2rem;
 }
@@ -10,6 +15,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.main h1 {
+  font-family: 'bsg';
 }
 
 .footer {
@@ -120,9 +129,9 @@
   .footer {
     border-color: #222;
   }
-  .code {
+  /* .code {
     background: #111;
-  }
+  } */
   .logo img {
     filter: invert(1);
   }
