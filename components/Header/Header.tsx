@@ -7,7 +7,6 @@ import LauraRoslinImage from '../images/lauraRoslin/LauraRoslin';
 export default function Header() {
   return (
     <>
- 
         <h1 className={styles.title}>
           <Colonies />
           Colonial Government

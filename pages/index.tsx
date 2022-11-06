@@ -6,6 +6,8 @@ import { NextPage } from 'next';
 import Main from '../components/Main';
 import Footer from '../components/Footer';
 import LauraRoslinImage from '../components/images/lauraRoslin';
+import NavBar from '../components/NavBar';
+
 
 const Home: NextPage = () => {
   return (
@@ -16,11 +18,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <nav className={styles.nav}>
-        <ul>
-          <li>Civilians</li>
-          <li>Government Personnel</li>
-          <li>Military Personnel</li>
-        </ul>
+        <NavBar />
       </nav>
 
       <header className={styles.header} >
