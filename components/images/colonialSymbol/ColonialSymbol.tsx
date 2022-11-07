@@ -1,10 +1,11 @@
 import React from 'react';
 import Image from 'next/image';
-import colonialSymbol from '../colonialSymbol/colonialSymbol100x100.png';
+import colonialSymbol from '../colonialSymbol/colonialSymbol50x50.png';
 import styled from '@emotion/styled';
 
 const ColonialSymbolImage = styled.div`
-    background-color: white;
+    line-height: 0;
+    margin-top: -20px;
 
 `
 

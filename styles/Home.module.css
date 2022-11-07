@@ -25,8 +25,13 @@
 }
 
 .nav ul li {
+  display: flex;
   padding: 0 5%;
   text-transform: uppercase;
+  font-family: 'bsg';
+  font-size: 1em;
+  align-content: center;
+  justify-content: baseline;
 }
 
 .header {
@@ -40,6 +45,7 @@
 
 .header h1 {
   font-family: 'bsg';
+
 }
 
 .main {

@@ -5,7 +5,6 @@ import Header from '../components/Header';
 import { NextPage } from 'next';
 import Main from '../components/Main';
 import Footer from '../components/Footer';
-import LauraRoslinImage from '../components/images/lauraRoslin';
 import NavBar from '../components/NavBar';
 
 
@@ -22,7 +21,6 @@ const Home: NextPage = () => {
       </nav>
 
       <header className={styles.header} >
-        <LauraRoslinImage />
         <Header />
       </header>
       <main className={styles.main}>
